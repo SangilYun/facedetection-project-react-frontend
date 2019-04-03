@@ -7,6 +7,7 @@ import Signin from './components/Signin/Signin';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Register from './components/Register/Register';
 import Rank from './components/Rank/Rank';
+
 import './App.css';
 import 'tachyons';
 
@@ -27,8 +28,8 @@ const initialState ={
     input:'',
     imageUrl:'',
     box:{},
-    route: 'signin',
-    isSignedIn: false,
+    route: 'home',
+    isSignedIn: true,
     user:{
       id :'',
       name:'',
